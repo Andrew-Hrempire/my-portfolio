@@ -1,0 +1,90 @@
+body{
+    font-family: "Roboto Serif", serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "DM Serif Display", serif;
+}
+
+.home-bg{
+    background-image:url(https://images.unsplash.com/photo-1634136145285-21280ef1f2f3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.navbar{
+    background: linear-gradient( #988558,#202020,#000000,#414141);
+}
+
+#home h1{
+    font-size: 60px;
+}
+
+#home p{
+    font-size: 24px;
+}
+
+.n-button:hover{
+    background-color: #f0ad4e;
+    color: #000000;
+}
+.n-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link.active{
+    color: #f0ad4e;
+}
+
+.services-content{
+    width: 100%;
+    height: fit-content;
+    border: 3px solid #f0ad4e;
+    perspective: 700px;
+}
+
+.services-shape{
+    width: 100%;
+    height: fit-content;
+    transform: rotateX(45deg);
+    transition: all 3s ease;
+}
+
+.services-shape:hover{
+    transform: rotateY(25deg);
+    transition: all 3s ease;
+}
+
+.services-box:hover{
+    box-shadow: 16px 32px 32px #ece9e9;
+    transition: all 1s ease;
+    transform: rotateY(5deg);
+}
+
+.services-bg{
+    background-image: url(https://images.unsplash.com/photo-1634136145285-21280ef1f2f3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.services-a:hover{
+    background-color: #f0ad4e;
+    color: #000000;
+}
+
+.portfolio-bg{
+    background-image: url(https://images.unsplash.com/photo-1634136145285-21280ef1f2f3?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.footer-ul a:hover{
+    border-bottom: solid 1px #f0ad4e;
+}
+
+.contact-box a:hover{
+    border-bottom: solid 1px #f0ad4e;
+}
