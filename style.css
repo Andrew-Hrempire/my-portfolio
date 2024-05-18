@@ -13,6 +13,12 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
 }
 
+hr{
+    color: #f0ad4e;
+    border-bottom: 3px solid #f0ad4e;
+    width: 35%;
+}
+
 .navbar{
     background: linear-gradient( #988558,#202020,#000000,#414141);
 }
@@ -58,7 +64,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .services-box:hover{
-    box-shadow: 16px 32px 32px #ece9e9;
+    box-shadow: 16px 32px 32px 32px #ece9e9;
     transition: all 1s ease;
     transform: rotateY(5deg);
 }
